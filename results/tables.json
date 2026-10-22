@@ -1,0 +1,606 @@
+{
+ "ai4i": [
+  [
+   "NeuroFuzzFormer (proposed)",
+   "0.719 ± 0.085",
+   "0.772 ± 0.097",
+   "0.962 ± 0.021",
+   "0.827 ± 0.065"
+  ],
+  [
+   "Transformer",
+   "0.720 ± 0.070",
+   "0.770 ± 0.092",
+   "0.974 ± 0.014",
+   "0.843 ± 0.067"
+  ],
+  [
+   "NeuralTSK",
+   "0.475 ± 0.065",
+   "0.496 ± 0.075",
+   "0.934 ± 0.019",
+   "0.772 ± 0.107"
+  ],
+  [
+   "MLP",
+   "0.592 ± 0.069",
+   "0.608 ± 0.097",
+   "0.960 ± 0.018",
+   "0.786 ± 0.056"
+  ],
+  [
+   "HGB",
+   "0.668 ± 0.096",
+   "0.744 ± 0.111",
+   "0.962 ± 0.019",
+   "0.804 ± 0.053"
+  ]
+ ],
+ "FD001": [
+  [
+   "NeuroFuzzFormer (proposed)",
+   "14.08 ± 0.17",
+   "10.39 ± 0.22",
+   "384 ± 29"
+  ],
+  [
+   "Transformer",
+   "13.24 ± 0.27",
+   "9.83 ± 0.27",
+   "300 ± 31"
+  ],
+  [
+   "NeuralTSK",
+   "17.86 ± 0.24",
+   "12.82 ± 0.19",
+   "929 ± 43"
+  ],
+  [
+   "MLP",
+   "14.03 ± 0.58",
+   "10.32 ± 0.66",
+   "358 ± 18"
+  ],
+  [
+   "HGB",
+   "14.31 ± 1.05",
+   "10.78 ± 0.68",
+   "372 ± 90"
+  ],
+  [
+   "LSTM",
+   "13.90 ± 0.27",
+   "10.93 ± 0.36",
+   "309 ± 25"
+  ]
+ ],
+ "FD003": [
+  [
+   "NeuroFuzzFormer (proposed)",
+   "13.70 ± 0.66",
+   "9.47 ± 0.62",
+   "446 ± 100"
+  ],
+  [
+   "Transformer",
+   "13.46 ± 0.45",
+   "9.80 ± 0.70",
+   "380 ± 41"
+  ],
+  [
+   "NeuralTSK",
+   "19.34 ± 0.34",
+   "13.54 ± 0.15",
+   "1991 ± 153"
+  ],
+  [
+   "MLP",
+   "16.04 ± 1.26",
+   "11.90 ± 0.74",
+   "555 ± 204"
+  ],
+  [
+   "HGB",
+   "15.28 ± 0.66",
+   "10.85 ± 0.53",
+   "710 ± 202"
+  ],
+  [
+   "LSTM",
+   "15.93 ± 1.22",
+   "11.80 ± 0.94",
+   "718 ± 180"
+  ]
+ ],
+ "conf": [
+  [
+   "AI4I",
+   "NeuroFuzzFormer (proposed)",
+   "0.903 ± 0.007",
+   "0.907 ± 0.009"
+  ],
+  [
+   "AI4I",
+   "Transformer",
+   "0.904 ± 0.008",
+   "0.908 ± 0.010"
+  ],
+  [
+   "AI4I",
+   "HGB",
+   "0.907 ± 0.009",
+   "0.915 ± 0.009"
+  ],
+  [
+   "FD001",
+   "NeuroFuzzFormer (proposed)",
+   "0.890 ± 0.051",
+   "47.3 ± 6.7 cycles"
+  ],
+  [
+   "FD001",
+   "Transformer",
+   "0.896 ± 0.022",
+   "44.4 ± 4.7 cycles"
+  ],
+  [
+   "FD001",
+   "HGB",
+   "0.922 ± 0.040",
+   "54.3 ± 7.3 cycles"
+  ],
+  [
+   "FD003",
+   "NeuroFuzzFormer (proposed)",
+   "0.908 ± 0.033",
+   "47.8 ± 9.0 cycles"
+  ],
+  [
+   "FD003",
+   "Transformer",
+   "0.918 ± 0.049",
+   "48.0 ± 8.9 cycles"
+  ],
+  [
+   "FD003",
+   "HGB",
+   "0.906 ± 0.058",
+   "55.7 ± 10.8 cycles"
+  ]
+ ],
+ "abl": [
+  [
+   "NeuroFuzzFormer (proposed)",
+   "0.698 ± 0.088",
+   "0.746 ± 0.110",
+   "0.970 ± 0.004",
+   "14.03 ± 0.11",
+   "0.990 ± 0.004",
+   "25.7 / 21.0"
+  ],
+  [
+   "without rule evolution",
+   "0.650 ± 0.065",
+   "0.700 ± 0.049",
+   "0.978 ± 0.006",
+   "13.24 ± 0.77",
+   "0.992 ± 0.006",
+   "16.0 / 16.0"
+  ],
+  [
+   "without attention modulation",
+   "0.692 ± 0.101",
+   "0.741 ± 0.096",
+   "0.972 ± 0.003",
+   "13.57 ± 0.31",
+   "0.917 ± 0.003",
+   "28.7 / 23.0"
+  ],
+  [
+   "without residual path",
+   "0.536 ± 0.027",
+   "0.551 ± 0.033",
+   "1.000 ± 0.000",
+   "13.07 ± 0.64",
+   "1.000 ± 0.000",
+   "16.3 / 20.0"
+  ],
+  [
+   "raw value tokens",
+   "0.570 ± 0.128",
+   "0.663 ± 0.111",
+   "0.972 ± 0.014",
+   "12.32 ± 0.83",
+   "0.994 ± 0.003",
+   "21.7 / 22.7"
+  ]
+ ],
+ "eff": [
+  [
+   "NeuroFuzzFormer (proposed)",
+   "17,839",
+   "0.41 ± 0.18",
+   "65",
+   "22,271",
+   "0.34 ± 0.05",
+   "82"
+  ],
+  [
+   "Transformer",
+   "17,186",
+   "0.18 ± 0.00",
+   "46",
+   "18,337",
+   "0.27 ± 0.04",
+   "50"
+  ],
+  [
+   "NeuralTSK",
+   "453",
+   "0.13 ± 0.04",
+   "11",
+   "997",
+   "0.13 ± 0.01",
+   "20"
+  ],
+  [
+   "MLP",
+   "17,666",
+   "0.09 ± 0.02",
+   "5",
+   "70,529",
+   "0.10 ± 0.01",
+   "4"
+  ],
+  [
+   "LSTM",
+   "–",
+   "–",
+   "–",
+   "20,289",
+   "0.14 ± 0.04",
+   "26"
+  ],
+  [
+   "HGB",
+   "tree ensemble",
+   "0.40 ± 0.11",
+   "0",
+   "tree ensemble",
+   "1.71 ± 0.33",
+   "11"
+  ]
+ ],
+ "stats": [
+  [
+   "AI4I",
+   "F1",
+   "Transformer",
+   "-0.001",
+   "0.970"
+  ],
+  [
+   "AI4I",
+   "F1",
+   "NeuralTSK",
+   "+0.244",
+   "< 0.001"
+  ],
+  [
+   "AI4I",
+   "F1",
+   "MLP",
+   "+0.127",
+   "0.001"
+  ],
+  [
+   "AI4I",
+   "F1",
+   "HGB",
+   "+0.051",
+   "0.134"
+  ],
+  [
+   "AI4I",
+   "AUPRC",
+   "Transformer",
+   "+0.002",
+   "0.933"
+  ],
+  [
+   "AI4I",
+   "AUPRC",
+   "NeuralTSK",
+   "+0.276",
+   "< 0.001"
+  ],
+  [
+   "AI4I",
+   "AUPRC",
+   "MLP",
+   "+0.164",
+   "< 0.001"
+  ],
+  [
+   "AI4I",
+   "AUPRC",
+   "HGB",
+   "+0.029",
+   "0.226"
+  ],
+  [
+   "FD001",
+   "RMSE",
+   "Transformer",
+   "+0.84",
+   "0.009"
+  ],
+  [
+   "FD001",
+   "RMSE",
+   "NeuralTSK",
+   "-3.78",
+   "< 0.001"
+  ],
+  [
+   "FD001",
+   "RMSE",
+   "MLP",
+   "+0.04",
+   "0.894"
+  ],
+  [
+   "FD001",
+   "RMSE",
+   "HGB",
+   "-0.23",
+   "0.674"
+  ],
+  [
+   "FD001",
+   "RMSE",
+   "LSTM",
+   "+0.18",
+   "0.370"
+  ],
+  [
+   "FD003",
+   "RMSE",
+   "Transformer",
+   "+0.24",
+   "0.494"
+  ],
+  [
+   "FD003",
+   "RMSE",
+   "NeuralTSK",
+   "-5.65",
+   "< 0.001"
+  ],
+  [
+   "FD003",
+   "RMSE",
+   "MLP",
+   "-2.35",
+   "0.007"
+  ],
+  [
+   "FD003",
+   "RMSE",
+   "HGB",
+   "-1.59",
+   "0.007"
+  ],
+  [
+   "FD003",
+   "RMSE",
+   "LSTM",
+   "-2.24",
+   "0.007"
+  ],
+  [
+   "FD001",
+   "RMSE",
+   "Transformer (vs. validation selected variant)",
+   "-0.50",
+   "0.336"
+  ],
+  [
+   "FD001",
+   "RMSE",
+   "LSTM (vs. validation selected variant)",
+   "-1.16",
+   "0.058"
+  ],
+  [
+   "FD001",
+   "RMSE",
+   "HGB (vs. validation selected variant)",
+   "-1.58",
+   "0.035"
+  ],
+  [
+   "FD003",
+   "RMSE",
+   "Transformer (vs. validation selected variant)",
+   "-0.26",
+   "0.401"
+  ],
+  [
+   "FD003",
+   "RMSE",
+   "LSTM (vs. validation selected variant)",
+   "-2.73",
+   "0.015"
+  ],
+  [
+   "FD003",
+   "RMSE",
+   "HGB (vs. validation selected variant)",
+   "-2.08",
+   "< 0.001"
+  ]
+ ],
+ "fid": [
+  [
+   "AI4I",
+   "0.974 ± 0.007",
+   "–",
+   "24.8 (20–29)",
+   "0.285 ± 0.006"
+  ],
+  [
+   "FD001",
+   "0.336 ± 0.063",
+   "0.990 ± 0.003",
+   "21.6 (17–23)",
+   "0.260 ± 0.002"
+  ],
+  [
+   "FD003",
+   "0.348 ± 0.086",
+   "0.975 ± 0.007",
+   "21.8 (17–23)",
+   "0.258 ± 0.001"
+  ]
+ ],
+ "rul": [
+  [
+   "NeuroFuzzFormer (proposed)",
+   "14.08 ± 0.17",
+   "10.39 ± 0.22",
+   "384 ± 29",
+   "13.70 ± 0.66",
+   "9.47 ± 0.62",
+   "446 ± 100"
+  ],
+  [
+   "Transformer",
+   "13.24 ± 0.27",
+   "9.83 ± 0.27",
+   "300 ± 31",
+   "13.46 ± 0.45",
+   "9.80 ± 0.70",
+   "380 ± 41"
+  ],
+  [
+   "NeuralTSK",
+   "17.86 ± 0.24",
+   "12.82 ± 0.19",
+   "929 ± 43",
+   "19.34 ± 0.34",
+   "13.54 ± 0.15",
+   "1991 ± 153"
+  ],
+  [
+   "MLP",
+   "14.03 ± 0.58",
+   "10.32 ± 0.66",
+   "358 ± 18",
+   "16.04 ± 1.26",
+   "11.90 ± 0.74",
+   "555 ± 204"
+  ],
+  [
+   "LSTM",
+   "13.90 ± 0.27",
+   "10.93 ± 0.36",
+   "309 ± 25",
+   "15.93 ± 1.22",
+   "11.80 ± 0.94",
+   "718 ± 180"
+  ],
+  [
+   "HGB",
+   "14.31 ± 1.05",
+   "10.78 ± 0.68",
+   "372 ± 90",
+   "15.28 ± 0.66",
+   "10.85 ± 0.53",
+   "710 ± 202"
+  ],
+  [
+   "NeuroFuzzFormer, raw value tokens (validation selected)",
+   "12.73 ± 0.82",
+   "9.44 ± 0.58",
+   "282 ± 51",
+   "13.20 ± 0.64",
+   "9.66 ± 0.61",
+   "352 ± 31"
+  ]
+ ],
+ "rules": [
+  [
+   "AI4I",
+   "Torque is MEDIUM AND Process temperature is MEDIUM AND Product quality is MEDIUM",
+   "failure probability 0.01",
+   "0.192"
+  ],
+  [
+   "AI4I",
+   "Process temperature is MEDIUM AND Torque is MEDIUM AND Product quality is LOW",
+   "failure probability 0.02",
+   "0.154"
+  ],
+  [
+   "AI4I",
+   "Process temperature is MEDIUM AND Torque is MEDIUM AND Product quality is HIGH",
+   "failure probability 0.02",
+   "0.147"
+  ],
+  [
+   "AI4I",
+   "Tool wear is HIGH AND Air temperature is MEDIUM AND Process temperature is HIGH",
+   "failure probability 0.87",
+   "0.013"
+  ],
+  [
+   "AI4I",
+   "Tool wear is HIGH AND Torque is LOW AND Air temperature is MEDIUM",
+   "failure probability 0.87",
+   "0.007"
+  ],
+  [
+   "AI4I",
+   "Tool wear is HIGH AND Air temperature is MEDIUM AND Process temperature is HIGH",
+   "failure probability 0.85",
+   "0.010"
+  ],
+  [
+   "FD001",
+   "NRf is MEDIUM AND Nf is MEDIUM AND BPR is HIGH",
+   "RUL ≈ 85 cycles",
+   "0.087"
+  ],
+  [
+   "FD001",
+   "phi is HIGH AND P30 is HIGH AND NRf is LOW",
+   "RUL ≈ 75 cycles",
+   "0.086"
+  ],
+  [
+   "FD001",
+   "Nc is LOW AND NRc is LOW AND NRf is LOW",
+   "RUL ≈ 132 cycles",
+   "0.085"
+  ],
+  [
+   "FD001",
+   "phi is LOW AND W31 is LOW AND P30 is LOW",
+   "RUL ≈ 0 cycles",
+   "0.063"
+  ],
+  [
+   "FD001",
+   "P30 is LOW AND W32 is LOW AND W31 is LOW",
+   "RUL ≈ 0 cycles",
+   "0.081"
+  ],
+  [
+   "FD001",
+   "W31 is LOW AND phi is MEDIUM AND Nc is MEDIUM",
+   "RUL ≈ 0 cycles",
+   "0.049"
+  ]
+ ]
+}

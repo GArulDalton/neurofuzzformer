@@ -1,0 +1,82 @@
+{
+ "rules": [
+  {
+   "rule": 14,
+   "support": 0.08668261766433716,
+   "ante": "NRf is MEDIUM AND Nf is MEDIUM AND BPR is HIGH",
+   "cons": "RUL \u2248 85 cycles"
+  },
+  {
+   "rule": 12,
+   "support": 0.08565029501914978,
+   "ante": "phi is HIGH AND P30 is HIGH AND NRf is LOW",
+   "cons": "RUL \u2248 75 cycles"
+  },
+  {
+   "rule": 0,
+   "support": 0.0848543643951416,
+   "ante": "Nc is LOW AND NRc is LOW AND NRf is LOW",
+   "cons": "RUL \u2248 132 cycles"
+  },
+  {
+   "rule": 2,
+   "support": 0.06275375187397003,
+   "ante": "phi is LOW AND W31 is LOW AND P30 is LOW",
+   "cons": "RUL \u2248 -20 cycles"
+  },
+  {
+   "rule": 16,
+   "support": 0.08137986809015274,
+   "ante": "P30 is LOW AND W32 is LOW AND W31 is LOW",
+   "cons": "RUL \u2248 -7 cycles"
+  },
+  {
+   "rule": 4,
+   "support": 0.0490727424621582,
+   "ante": "W31 is LOW AND phi is MEDIUM AND Nc is MEDIUM",
+   "cons": "RUL \u2248 -5 cycles"
+  }
+ ],
+ "rel": {
+  "T24": 0.7457144856452942,
+  "T30": 0.19940704107284546,
+  "T50": 0.9217156171798706,
+  "P30": 1.362026333808899,
+  "Nf": 0.7398245334625244,
+  "Nc": 0.49924594163894653,
+  "Ps30": 1.5414541959762573,
+  "phi": 1.6320246458053589,
+  "NRf": 0.9993361234664917,
+  "NRc": 2.6212165355682373,
+  "BPR": 0.8278663158416748,
+  "htBleed": 0.3640165328979492,
+  "W31": 0.8948516249656677,
+  "W32": 0.6472662091255188
+ },
+ "active": 17,
+ "example": {
+  "index": 33,
+  "y": 7.0,
+  "pred": -2.190306317061186,
+  "top": [
+   {
+    "rule": 16,
+    "w": 0.606718897819519,
+    "ante": "Ps30 is HIGH AND Nf is MEDIUM AND NRf is MEDIUM",
+    "cons": "RUL \u2248 -7 cycles"
+   },
+   {
+    "rule": 2,
+    "w": 0.18295541405677795,
+    "ante": "Ps30 is HIGH AND Nf is MEDIUM AND NRf is MEDIUM",
+    "cons": "RUL \u2248 -20 cycles"
+   }
+  ],
+  "rel": {
+   "Ps30": 4.049308776855469,
+   "Nf": 2.3407506942749023,
+   "NRf": 2.006578207015991,
+   "T24": 1.7767283916473389
+  }
+ }
+}

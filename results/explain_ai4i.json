@@ -1,0 +1,74 @@
+{
+ "rules": [
+  {
+   "rule": 7,
+   "support": 0.19157548248767853,
+   "ante": "Torque is MEDIUM AND Process temperature is MEDIUM AND Product quality is MEDIUM",
+   "cons": "failure probability 0.01"
+  },
+  {
+   "rule": 4,
+   "support": 0.15443779528141022,
+   "ante": "Process temperature is MEDIUM AND Torque is MEDIUM AND Product quality is LOW",
+   "cons": "failure probability 0.02"
+  },
+  {
+   "rule": 6,
+   "support": 0.1468411237001419,
+   "ante": "Process temperature is MEDIUM AND Torque is MEDIUM AND Product quality is HIGH",
+   "cons": "failure probability 0.02"
+  },
+  {
+   "rule": 13,
+   "support": 0.012954503297805786,
+   "ante": "Tool wear is HIGH AND Air temperature is MEDIUM AND Process temperature is HIGH",
+   "cons": "failure probability 0.87"
+  },
+  {
+   "rule": 9,
+   "support": 0.006728156935423613,
+   "ante": "Tool wear is HIGH AND Torque is LOW AND Air temperature is MEDIUM",
+   "cons": "failure probability 0.87"
+  },
+  {
+   "rule": 11,
+   "support": 0.009729624725878239,
+   "ante": "Tool wear is HIGH AND Air temperature is MEDIUM AND Process temperature is HIGH",
+   "cons": "failure probability 0.85"
+  }
+ ],
+ "rel": {
+  "Air temperature": 0.5589511394500732,
+  "Process temperature": 0.15613797307014465,
+  "Rotational speed": 0.4202662706375122,
+  "Torque": 1.722622275352478,
+  "Tool wear": 2.795132875442505,
+  "Product quality": 0.22433391213417053
+ },
+ "active": 20,
+ "example": {
+  "index": 0,
+  "y": 1.0,
+  "pred": 0.9270577430725098,
+  "top": [
+   {
+    "rule": 2,
+    "w": 0.13567590713500977,
+    "ante": "Process temperature is HIGH AND Product quality is LOW AND Torque is MEDIUM",
+    "cons": "failure probability 0.08"
+   },
+   {
+    "rule": 12,
+    "w": 0.09499634802341461,
+    "ante": "Process temperature is HIGH AND Product quality is MEDIUM AND Torque is LOW",
+    "cons": "failure probability 0.83"
+   }
+  ],
+  "rel": {
+   "Process temperature": 4.399840831756592,
+   "Product quality": 0.6300048232078552,
+   "Torque": 0.2827104926109314,
+   "Rotational speed": 0.2096957564353943
+  }
+ }
+}
